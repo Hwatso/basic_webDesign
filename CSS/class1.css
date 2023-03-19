@@ -1,0 +1,11 @@
+/* Here is external CSS sheet */
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+#para {
+    color: aquamarine;
+    size: 30px;
+}
