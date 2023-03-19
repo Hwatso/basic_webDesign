@@ -56,13 +56,18 @@ There are three ways of writing CSS:
     }
     ```
 
+    ```html
+    <!-- external css link inside head -->
+    <link rel="stylesheet" href="./class1.css">
+    ```
+
 
 ### Common Types of CSS 
 _Well I would suggest just go google for the kind of CSS code that might exist you want because it is just about memory thing._
 
 For example, I want to know how shadowing a box looks like: <br>
 And I found the [link](shadow-MDN) here explaining so well: <br>
-<img scr="shadow-css.png" alt="shadow-syntax-html" style="width:40%; height:40%;"> <br>
+<img scr=".shadow-css.png" alt="shadow-syntax-html" style="width:40%; height:40%;"> <br>
 
 
 

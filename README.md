@@ -50,7 +50,11 @@ In this post, I have summarized my personal learning experience of HTML and CSS,
 There are a bunch of online open resources that amazingly explained the scenarios and conditions to use certain kinds of HTML elements and tags, or revealed the trick to fulfill the task. I would list the links below.
 
 <br>
+<br>
+<br>
 
+## My Personal Project
+It might not be real project but... I tried on my own to mimick xiaomi shopping website to test my skills to write a complete webpage, the file can be seen in [xiaomi-website-mock](./xiaomi-website-mock/) folder (open xiaomi.html file).
 
 
 *syntax for markdown all from link below*
