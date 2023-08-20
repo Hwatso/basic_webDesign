@@ -16,7 +16,7 @@ The topic was about creating something to help people with a healthier life, whi
 
 **Health-Clock Page Screenshot**
 <br>
-<img src="./img/demo-health.png">
+<img src="./img/demo-health.png" style="width:90%">
 <br>
 
 **Forum-and-Ideas Page Screenshot**
