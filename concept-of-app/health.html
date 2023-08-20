@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Health Clock</title>
     <style>
+        @font-face {
+        font-family: 'iconfont';  /* Project id 4217516 */
+        src: url('//at.alicdn.com/t/c/font_4217516_7mw7dhdrnp3.woff2?t=1692525669826') format('woff2'),
+            url('//at.alicdn.com/t/c/font_4217516_7mw7dhdrnp3.woff?t=1692525669826') format('woff'),
+            url('//at.alicdn.com/t/c/font_4217516_7mw7dhdrnp3.ttf?t=1692525669826') format('truetype');
+        }
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
         *{box-sizing: border-box;font-family: 'Roboto', sans-serif;}
         #box {width: 1365px;
@@ -102,23 +108,35 @@
 
     <div id="nutrition">
         <div class="nutrition-comp">
-            <p>Carbohydrates</p>
+            <p><span style="font-family: 'iconfont';
+            font-size: 30px;
+            margin-right: 8px;
+            vertical-align: middle;">&#xe66e;</span>Carbohydrates</p>
             <div class="nutrition-bar"></div>
             <div class="nutrition-bar-filled bar-thirtythree"></div>
         </div>
         <div class="nutrition-comp">
-            <p>Proteins</p>
+            <p><span style="font-family: 'iconfont';
+            font-size: 30px;
+            margin-right: 8px;
+            vertical-align: middle;">&#xe612;</span>Proteins</p>
             <div class="nutrition-bar"></div>
             <div class="nutrition-bar-filled bar-sixty"></div>
         </div>
         <div class="nutrition-comp">
-            <p>Fats</p>
+            <p><span style="font-family: 'iconfont';
+            font-size: 30px;
+            margin-right: 8px;
+            vertical-align: middle;">&#xe8fd;</span>Fats</p>
             <div class="nutrition-bar"></div>
             <div class="nutrition-bar-filled bar-ten"></div>
         </div>
         <div class="nutrition-comp">
-            <p style="margin-bottom: 0;">Vitamins</p>
-            <ul style="margin-top: 4px;color: white;">
+            <p style="margin-bottom: 0;"><span style="font-family: 'iconfont';
+            font-size: 30px;
+            margin-right: 8px;
+            vertical-align: middle;">&#xe69e;</span>Vitamins</p>
+            <ul style="margin-top: 8px;color: white;">
                 <li>D</li>
                 <li>A</li>
                 <li>C</li>
@@ -128,8 +146,11 @@
             <div class="nutrition-bar"></div>
         </div>
         <div class="nutrition-comp">
-            <p style="margin-bottom: 0;">Minerals</p>
-            <ul style="margin-top: 4px;color: white;">
+            <p style="margin-bottom: 0;"><span style="font-family: 'iconfont';
+            font-size: 30px;
+            margin-right: 8px;
+            vertical-align: middle;">&#xe711;</span>Minerals</p>
+            <ul style="margin-top: 8px;color: white;">
                 <li>Calcium</li>
                 <li>Potassium</li>
                 <li>Magnesium</li>
@@ -138,13 +159,38 @@
             <div class="nutrition-bar"></div>
             <div class="nutrition-bar-filled bar-twenty"></div>
         </div>
+
     </div>
 
-    <div id="clock">
+    <div id="clock" style="position: relative;">
+        <div class="bg-icons" style="
+        position: absolute;
+        font-family: 'iconfont';
+        top: 44px;
+        left: 190px;
+        font-size: 120px;
+        color: yellow;
+        opacity: 0.4;">&#xe63f;</div>
+        <div class="bg-icons" style="
+        position: absolute;
+        font-family: 'iconfont';
+        bottom: 40px;
+        right: 74px;
+        font-size: 120px;
+        color: blue;
+        opacity: 0.4;">&#xe696;</div>
         
         <pie id="clock-sector"></pie>
         <pie id="clock-purple"></pie>
-        <div id="smile-center"></div>
+        <div id="smile-center">
+            <p class="smile" style="
+            font-family: 'iconfont';
+            text-align: center;
+            line-height: 98px;
+            margin: 0;
+            font-size: 60px;
+            color: skyblue;">&#xe643;</p>
+        </div>
 
         <div id="exercise">
             <p style="    font-size: 18px;
