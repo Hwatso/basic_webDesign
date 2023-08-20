@@ -9,19 +9,23 @@ The topic was about creating something to help people with a healthier life, whi
 ## Demo Pictures
 
 
-**Home-Panel Page Screenshot**
-<img src="./img/demo-home.png" style="width:70%">
+**Home-Panel Page Screenshot** 
+<br>
+<img src="./img/demo-home.png" style="width:90%">
 <br>
 
 **Health-Clock Page Screenshot**
+<br>
 <img src="./img/demo-health.png">
 <br>
 
 **Forum-and-Ideas Page Screenshot**
-<img src="./img/demo-forum1.png" style="width:100%">
-<img src="./img/demo-forum2.png" style="width:100%">
+<br>
+<img src="./img/demo-forum1.png" style="width:70%">
+<img src="./img/demo-forum2.png" style="width:70%">
 <br>
 
 **Memo-Gallery Page Screenshot**
-<img src="./img/demo-gallery.png" style="width:70%">
+<br>
+<img src="./img/demo-gallery.png" style="width:90%">
 <br>
