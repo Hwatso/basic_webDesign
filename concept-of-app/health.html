@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Clock</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+        *{box-sizing: border-box;font-family: 'Roboto', sans-serif;}
+        #box {width: 1365px;
+            margin: 50px auto;
+            background-color: lightsalmon;
+            padding: 22px;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 20px;
+        }
+        #nutrition,#clock,#goal{border-radius: 20px;}
+        #nutrition {
+            background-color: lightseagreen;
+            display: grid;
+            padding: 15px;
+        }
+        #clock {
+            background-color: rgb(253 187 31);
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            padding: 15px;
+        }
+        #goal {
+            background-color: indianred;
+            padding: 15px;
+        }
+
+        .nutrition-comp {position: relative; margin-bottom: 20px;}
+        .nutrition-comp>p {color: white;font-size: 16px;margin-bottom: 10px;}
+        .nutrition-bar {height: 20px; width: 100%; border-radius: 10px; border: 4px solid white;}
+        .nutrition-bar-filled {position: absolute; bottom: 0; height: 20px; border-radius: 10px;background: white;}
+        .bar-thirtythree {width: 35%;}
+        .bar-ten {width: 10%;}
+        .bar-sixty {width: 60%;}
+        .bar-twenty {width: 20%;}
+        ul li {list-style-type: circle;}
+
+        pie {
+            display: block;
+            width: 340px;
+            height: 340px;
+            border-radius: 50%;
+            border: 1px solid white;
+        }
+        #smile-center {
+            width: 98px;
+            height: 98px;
+            border-radius: 50%;
+            background-color: white;
+            z-index: 99;
+        }
+        #clock-sector {
+            position: absolute;
+            transform: translate(50%);
+            width: 50%;
+            background-image: linear-gradient(270deg, transparent 50%, white 50%), linear-gradient(200deg, transparent 50%, white 50%);
+        }
+        #clock-purple {
+            position: absolute;
+            transform: translate(50%);
+            width: 50%;
+            border: 10px solid white;
+            background-image: linear-gradient(200deg, transparent 50%, purple 50%), linear-gradient(50deg, purple 50%, transparent 50%);
+        }
+        #exercise {
+            position: absolute;
+            top: 40px;
+            right: 40px;
+            /* width: 236px; */
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+        #sleep {
+            position: absolute;
+            bottom: 40px;
+            left: 40px;
+            font-size: 20px;
+            font-weight: bold;
+            
+        }
+
+        #goal>h3 {font-size: 40px;margin-bottom: 0;}
+        #goal>h4 {font-size: 24px;margin-top: 0;}
+        #goal ul li {margin-bottom: 20px;text-decoration: underline;}
+
+        #bottom-nav {text-align: center;}
+        #bottom-nav>a {margin-right: 20px;}
+    </style>
+</head>
+<body>
+<div id="box">
+
+    <div id="nutrition">
+        <div class="nutrition-comp">
+            <p>Carbohydrates</p>
+            <div class="nutrition-bar"></div>
+            <div class="nutrition-bar-filled bar-thirtythree"></div>
+        </div>
+        <div class="nutrition-comp">
+            <p>Proteins</p>
+            <div class="nutrition-bar"></div>
+            <div class="nutrition-bar-filled bar-sixty"></div>
+        </div>
+        <div class="nutrition-comp">
+            <p>Fats</p>
+            <div class="nutrition-bar"></div>
+            <div class="nutrition-bar-filled bar-ten"></div>
+        </div>
+        <div class="nutrition-comp">
+            <p style="margin-bottom: 0;">Vitamins</p>
+            <ul style="margin-top: 4px;color: white;">
+                <li>D</li>
+                <li>A</li>
+                <li>C</li>
+                <li>B12</li>
+                <li>B6</li>
+            </ul>
+            <div class="nutrition-bar"></div>
+        </div>
+        <div class="nutrition-comp">
+            <p style="margin-bottom: 0;">Minerals</p>
+            <ul style="margin-top: 4px;color: white;">
+                <li>Calcium</li>
+                <li>Potassium</li>
+                <li>Magnesium</li>
+                <li>Iron</li>
+            </ul>
+            <div class="nutrition-bar"></div>
+            <div class="nutrition-bar-filled bar-twenty"></div>
+        </div>
+    </div>
+
+    <div id="clock">
+        
+        <pie id="clock-sector"></pie>
+        <pie id="clock-purple"></pie>
+        <div id="smile-center"></div>
+
+        <div id="exercise">
+            <p style="    font-size: 18px;
+            background: black;
+            border-radius: 14px;
+            padding: 8px;
+            opacity: 0.8;
+            color: rgb(253 187 31);
+            ">Exercise Percentage: 34%</p>
+            <p style="text-align: end;color: white;"><span style="font-weight: lighter;">Evaluation: </span><br> Impressive Schedule !</p>
+        </div>
+
+        <div id="sleep">
+            <p style="    font-size: 18px;
+            background: black;
+            border-radius: 14px;
+            padding: 8px;
+            opacity: 0.8;
+            color: purple;
+            ">Sleep Percentage: 51%</p>
+            <p style="color: white;"><span style="font-weight: lighter;">Evaluation: </span><br> Excellent !</p>
+        </div>
+        
+
+    </div>
+
+    <div id="goal">
+        <h3>Your Goal</h3>
+        <h4>of the Week</h4>
+        <ul style="margin-top: 4px;color: white;">
+            <li>A total sleep of 56 hours</li>
+            <li>Go to the gym three times!</li>
+        </ul>
+    </div>
+
+</div>
+<div id="bottom-nav">
+    <a href="./forum.html">Forum and Ideas</a>
+    <a href="./memo-gallery.html">Memo Gallery</a>
+    <a href="./Home.html">Go Back Home</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Panel</title>
+    <style>
+        @font-face {
+        font-family: 'iconfont';  /* Project id 3864228 */
+        src: url('//at.alicdn.com/t/c/font_3864228_guqrh1j0xp8.woff2?t=1673757961299') format('woff2'),
+            url('//at.alicdn.com/t/c/font_3864228_guqrh1j0xp8.woff?t=1673757961299') format('woff'),
+            url('//at.alicdn.com/t/c/font_3864228_guqrh1j0xp8.ttf?t=1673757961299') format('truetype');
+        }
+        body{background: url(./img/sea.jpg);background-size: cover;}
+        /* rgb(56, 48, 48) */
+        b{font-family: "iconfont";color: black;}
+        hr{width: 100%;margin-top: 3px;}
+        *{margin: 0; padding: 0;font-size: 19px;font-family: "Microsoft Yahei";}
+        a{text-decoration: none;font-weight: bold;color: black;}
+        #box{margin: 100px; width: 1319px; border: 1px solid brown; padding: 20px;border-radius: 10px;background-color: white;}
+        .norm{width: 420px;display: inline-block;}
+        .non{width: 720px;display: inline-block;}
+        .item{border-radius: 10px 40px; padding: 25px; margin: 20px 0;background-color: rgb(228, 221, 221);}
+        .itemred{border-radius: 10px 40px; padding: 25px; margin: 20px 0;background-color: #FA0644;}
+        .itemora{border-radius: 10px 40px; padding: 25px; margin: 20px 0;background-color: #FA5300;}
+        .itempur{border-radius: 10px 40px; padding: 25px; margin: 20px 0;background-color: #AA02FF;}
+        ul li{list-style: none; margin: 5px 0;}
+        .whi{color: #fff;}
+        .time{color: rgb(107, 100, 100); font-family: cursive;display: inline-block;vertical-align: middle;}
+        .exp{font-family:cursive;text-align:center;}
+        /* .extra{font-family: cursive;color: #fff;background-color: rgb(238, 7, 154);padding: 5px;} */
+        div{margin: 0 10px;}
+        .sqr{padding:15px;width: 245px;height: 210px;display: inline-block;background-color: #AA02FF; border-radius: 5px;}
+        .cube{height: 140px;display: inline-block;}
+        .tit{color: white; font-size: 20px;}
+        .card{padding:0 30px;width: 160px;height: 400px;background-color: antiquewhite;
+            float: right;
+            transition: 0.5s;}
+        .card:hover{transform: translateY(30px);}
+        .void{height:320px;margin: 20px 0;}
+    </style>
+    
+</head>
+<!-- #601700 #C08497 414073 -->
+<body>
+    <div id="box">
+        <div>
+            <div id="progress"></div>
+            <div class="norm">
+                <ul class="item">
+                    <li><h2 style="color: white;">Today</h2><span></span></li>
+                    <li><b style="margin-right: 10px;">&#xe629; &#xe644;</b><span>1 hr Python Practice</span><span style="font-family:cursive"><b style="margin-left: 15px;color: rgb(135, 183, 246);">&#xe817;</b> (+1 exp)</span><hr></li>
+                    <li><b style="margin-right: 10px;">&#xe77a; &#xe644;</b><span>water the cactus</span><span style="font-family:cursive"><b style="margin-left: 15px;color: rgb(135, 183, 246);">&#xe817;</b> (+1 exp)</span><hr></li>
+                    <li><b style="margin-right: 10px;">&#xe629; &#xe644;</b><span>finish Thermal chapter 2</span><span style="font-family:cursive"><b style="margin-left: 15px;color: rgb(135, 183, 246);">&#xe817;</b> (+3 exp)</span><hr></li>
+                    <li><b style="margin-left:35px;">&#xe629; &#xe654;&nbsp;</b><span>sustainability essay</span><span style="font-family:cursive"><b style="margin-left: 15px;color: #AA02FF;">&#xe817;</b> (+4 exp)</span><hr></li>
+                    <li><b style="margin-left:35px;">&#xe629; &#xe654;&nbsp;</b><span>2PN assignment 1</span><span style="font-family:cursive"><b style="margin-left: 15px;color: #AA02FF;">&#xe817;</b> (+4 exp)</span><hr></li>
+                </ul>
+            </div>
+            <div class="sqr">
+                <div class="cube">
+                    <div style="height: 180px;margin: 0;">
+                        <p style="color: white;
+                        font-size: 30px;
+                        font-weight: lighter;">In 14 Days</p>
+                        <p style="color: white;
+                        font-size: 38px;
+                        text-align: center;
+                        text-transform: uppercase;">Victoria Day</p>
+                        <p style="margin-top: 15px;
+                        color: lightblue;
+                        font-size: 18px;">next:&nbsp;&nbsp;<i>Jodi's Birthday</i>&nbsp;&nbsp;!</p>
+                    </div>
+                    <h1 class="tit">Events Calendar</h1>
+                </div> 
+            </div>
+            <div class="norm">
+                <ul class="itemora">
+                    <li><h2 style="color: white;">UPCOMING ATTACKS</h2></li>
+                    <li><span class="whi"><b style="margin-right: 10px;">&#xe629; &#xe644;</b>dental check-up</span>
+                        <div class="time"><span><b style="margin-left: 15px;color: rgb(135, 183, 246);">&#xe817;</b> in 2 days</span>
+                            <p class="exp">(+3 exp)</p></div>
+                        <hr>
+                    </li>
+                    <li><span><b style="margin-right: 10px;">&#xe629; &#xe654;</b><span class="whi">bake turkey Croissant</span>
+                        <div class="time"><span><b style="margin-left: 15px;color: #AA02FF;">&#xe817;</b> in 2 days</span>
+                            <p class="exp">(+5 exp)</p></div>
+                        <hr>
+                    </li>
+                    
+            </div>
+            <div class="norm">
+                <ul class="itemred">
+                    <li><h2 style="color: white;">Weekly Quests</h2></li>
+                    <li><b style="margin-right: 5px;">&#xe629; &#xe644;</b>
+                        <span class="whi"><i>completed more than 2 tasks</i></span><span style="font-family:cursive"><b style="margin-left: 15px;color: rgb(135, 183, 246);">&#xe817;</b> (+2 speed)</span><hr></li>
+                    <li><b style="margin-right: 5px;">&#xe77a; &#xe644;</b>
+                        <span class="whi"><i>streak on fire</i></span><span style="font-family:cursive"><b style="margin-left: 15px;color: rgb(135, 183, 246);">&#xe817;</b> (+2 accuracy)</span><hr></li>
+                </ul>
+                <ul class="itempur">
+                    <li><h2 style="color: white;">Extra Trainings</h2></li>
+                    <li><b style="margin-right: 5px;">&#xe629; &#xe644;</b>
+                        <span class="whi"><i>completed ahead of time</i></span><span style="font-family:cursive"><b style="margin-left: 15px;color: rgb(135, 183, 246);">&#xe817;</b> (+2 speed)</span><hr></li>
+                    <li><b style="margin-right: 5px;">&#xe77a; &#xe644;</b>
+                        <span class="whi"><i>find new skill</i></span><span style="font-family:cursive"><b style="margin-left: 15px;color: rgb(135, 183, 246);">&#xe817;</b> (+2 accuracy)</span><hr></li>
+                </ul>
+                <div style="height: 10px;"></div>
+            </div>
+            <div class="non">
+                <div class="card"><div class="void" style="border-radius: 0 0 120px 0;background-color: #fff;background:url(./img/plant.jpg);background-size: 100%;" ></div>
+                <a href="./health.html">Health Clock</a></div>
+                <div class="card"><div class="void" style="border-radius: 0 0 120px 120px;background-color: #fff;background:url(./img/books.jpg);background-size: 200%;"></div>
+                <a href="./forum.html">Forum and Ideas</a></div>
+                <div class="card"><div class="void" style="border-radius: 0 120px 0 0;background-color: #fff;background:url(./img/travel.jpg);background-size: 150%;"></div>
+                <a href="./memo-gallery.html">Memo Gallery</a></div>
+            </div>
+
+        </div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>
