@@ -14,9 +14,12 @@ main {background-color: white;height: 47.8125rem;}
     margin-right: 11.125rem;
     width: 3.875rem;
     height: 3.5rem;
-    background-color: lightblue;
+    /* background-color: lightblue; */
 
     float: left;
+    text-align: center;
+    font-size: 64px;
+    color: #ff6700;
 }
 
 .top-menu {
@@ -73,6 +76,10 @@ main {background-color: white;height: 47.8125rem;}
 }
 .unselected {opacity: 0;}
 .swiper-img.active {opacity: 1;}
+
+/* .swiper-pic {
+    transition: transform 5s;
+} */
 
 .prev-btn, .next-btn {
     position: absolute;

@@ -10,9 +10,12 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/section.css">
-    <script src="fadeIn.js" defer></script>
-    <script src="popUp.js" defer></script>
-    <script src="scrollUp.js" defer></script>
+    <!-- <script src="./js/easein.js" defer></script> -->
+    <!-- <script src="./js/fadeIn.js" defer></script> -->
+    <script src="./js/scrollUp.js" defer></script>
+    <script src="./js/popUp.js" defer></script>
+    <script src="./js/carousel-fadein.js" defer></script>
+    <script src="./js/carousel-btn.js" defer></script>
 </head>
 <body>
     <header>
@@ -40,7 +43,7 @@
     <main>
         
         <div class="main-topbar">
-            <div class="top-logo"></div>
+            <div class="top-logo"><p class="xiaomiIcons">&#xe613;</p></div>
             <div class="top-menu">
                 <a href="#">Xiaomi手机</a>
                 <a href="#">Redmi手机</a>
@@ -51,21 +54,23 @@
             </div>
             <div class="top-search">
                 <input type="text" placeholder="冰箱" class="input-search">
-                <button>;;</button>
+                <button><p class="xiaomiIcons" style="font-size: 20px;">&#xe600;</p></button>
             </div>
         </div>
 
 
         <div class="main-swiper">
             <div class="swiper-album">
-                <img src="./img/xiaomi-1.webp" alt="" class="swiper-img">
+                <img src="./img/xiaomi-2.webp" id="second-swiper-pic" alt="">
+                <img src="./img/xiaomi-1.webp" id="first-swiper-pic" alt="">
+                <!-- <img src="./img/xiaomi-1.webp" alt="" class="swiper-img">
                 <img src="./img/xiaomi-2.webp" alt="" class="swiper-img unselected">
                 <img src="./img/xiaomi-3.jpg" alt="" class="swiper-img unselected">
                 <img src="./img/xiaomi-4.webp" alt="" class="swiper-img unselected">
-                <img src="./img/xiaomi-5.webp" alt="" class="swiper-img unselected">
+                <img src="./img/xiaomi-5.webp" alt="" class="swiper-img unselected"> -->
             </div>
-            <button class="prev-btn">《</button>
-            <button class="next-btn">》</button>
+            <button class="prev-btn"><p class="xiaomiIcons" style="font-size: 24px;">&#xe703;</p></button>
+            <button class="next-btn"><p class="xiaomiIcons" style="font-size: 24px;">&#xe717;</p></button>
 
 
             <div class="swiper-items">
@@ -317,7 +322,7 @@
         <div><img src="./img/rg.png" alt=""> 人工客服</div>
         <div><img src="./img/gouwu.png" alt=""> 购物车</div>
     </div>
-    <div class="totop" id="totop" onclick="topFunction()">
+    <div class="totop" id="totop" onclick="topFunction()" style="cursor: pointer;">
         <img src="./img/totop.png" alt="">
         回顶部
     </div>

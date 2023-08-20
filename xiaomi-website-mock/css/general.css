@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'iconfont';  /* Project id 3908940 */
+    src: url('//at.alicdn.com/t/c/font_3908940_6nczi7aypf6.woff2?t=1692489808149') format('woff2'),
+         url('//at.alicdn.com/t/c/font_3908940_6nczi7aypf6.woff?t=1692489808149') format('woff'),
+         url('//at.alicdn.com/t/c/font_3908940_6nczi7aypf6.ttf?t=1692489808149') format('truetype');
+  }
+
+  .xiaomiIcons {
+    font-family: 'iconfont';
+  }
+
 html {font-size: 16px;}
 
 *, *::before, *::after {
