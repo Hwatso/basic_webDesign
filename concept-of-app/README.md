@@ -11,12 +11,12 @@ The topic was about creating something to help people with a healthier life, whi
 
 **Home-Panel Page Screenshot** 
 <br>
-<img src="./img/demo-home.png" style="width:90%">
+<img src="./img/demo-home.png" style="width:100%">
 <br>
 
 **Health-Clock Page Screenshot**
 <br>
-<img src="./img/demo-health.png">
+<img src="./img/demo-health.png" style="width:100%">
 <br>
 
 **Forum-and-Ideas Page Screenshot**
