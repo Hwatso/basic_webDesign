@@ -18,7 +18,7 @@ main {background-color: white;height: 47.8125rem;}
 
     float: left;
     text-align: center;
-    font-size: 64px;
+    font-size: 56px;
     color: #ff6700;
 }
 
@@ -46,6 +46,7 @@ main {background-color: white;height: 47.8125rem;}
 .top-search>button {
     width: 3.25rem;
     line-height: 3.125rem;
+    vertical-align: middle;
 }
 
 /* 62x56 logo xiaomi */
