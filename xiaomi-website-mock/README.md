@@ -23,7 +23,7 @@ The reference real website link is [here](https://www.mi.com/shop). <br>
 <br>
 
 **Go-to-Top button will be shown if scrolling down**
-<img src="./demo-imgs/demo5.png" style="width:90%">
+<img src="./demo-imgs/demo5.png" style="width:20%;">
 <br>
 
 **Carousel slowly fading in and out automatically**
